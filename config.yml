@@ -1,4 +1,30 @@
 baseURL: https://noaidi.github.io/hugo-test/
 languageCode: ko-kr
 title: Hugo Test
-theme: manis
+theme: my-theme
+
+# Copyright notice. Note: You can use HTML tag here
+copyright: '&copy; 2019 Yurizal Susanto'
+pluralizeListTitles: false
+
+# Minimum number of posts before paginate navigation show up
+paginate: 10
+
+# Edit this if you want to translate your blog
+defaultContentLanguage: "en"
+
+# Code Highlighting (Chroma)
+pygmentsCodeFences: true
+pygmentsUseClasses: true
+
+menu:
+  main:
+    - name: About
+      url: /about
+    - name: Work
+      url: /work
+    - name: Blog
+      url: /blog
+
+taxonomies:
+  tag: tags

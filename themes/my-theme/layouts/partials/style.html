@@ -1,0 +1,8 @@
+{{ $cssResources := slice }}
+{{ range (readDir "assets/css") }}
+	{{ $path := print "css/" .Name }}
+	{{ $resource := resources.Get $path | toCSS }}
+	{{ $cssResources = $cssResources | append $resource }}
+{{ end }}
+{{ $cssBundle := $cssResources | resources.Concat "css/bundle.css" | fingerprint | minify }}
+<link rel="stylesheet" href="{{ $cssBundle.RelPermalink }}">
