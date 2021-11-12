@@ -1,4 +1,4 @@
 baseURL: https://noaidi.github.io/hugo-test/
 languageCode: ko-kr
 title: Hugo Test
-theme: manis
+theme: researcher

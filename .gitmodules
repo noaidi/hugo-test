@@ -1,9 +1,0 @@
-[submodule "themes/manis-hugo-theme"]
-	path = themes/manis-hugo-theme
-	url = https://github.com/yursan9/manis-hugo-theme.git
-[submodule "themes/manis"]
-	path = themes/manis
-	url = https://github.com/yursan9/manis-hugo-theme.git
-[submodule "themes/researcher"]
-	path = themes/researcher
-	url = https://github.com/ankitsultana/researcher.git
